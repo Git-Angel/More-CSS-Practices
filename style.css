@@ -1,0 +1,181 @@
+.container{
+    border: 2px solid #333;
+    padding: 20px;
+    height: 200px;
+    width: 250px;
+}
+
+.static{
+    width: 100px;
+    height: 100px;
+    background-color: aquamarine;
+}
+
+.container1{
+    border: 2px solid #333;
+    padding: 20px;
+    height: 200px;
+    width: 250px;
+    margin: 20px;
+}
+
+.relative{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(127, 200, 255);
+    position: relative;
+    top: 50px;
+    left: 60px;
+}
+
+.container2{
+    border: 2px solid #333;
+    padding: 20px;
+    height: 200px;
+    width: 250px;
+    margin: 20px;
+}
+
+.absolute{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(127, 200, 255);
+    top: 30px;
+    position: absolute;
+    right: 20px;
+}
+
+.container3{
+    border: 2px solid #333;
+    padding: 20px;
+    height: 200px;
+    width: 250px;
+    margin: 20px;
+    margin-bottom: 10px;
+}
+
+.fixed{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 127, 236);
+    position: fixed;
+    bottom: 20px;
+    right: 20px;  
+}
+
+.container4{
+    width: 500px;
+    padding: 20px;
+    border: 2px solid #333;
+}
+
+.left{
+    text-align: left;
+}
+
+.right{
+    text-align: right;
+}
+
+.centre{
+    text-align: center;
+}
+
+.justify{
+    text-align: justify;
+}
+
+.container5{
+    width: 400px;
+    height: 300px;
+    border: 2px solid #333;
+    padding: 20px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(191, 255, 127);
+    margin: 0 auto;
+}
+
+.flex{
+    height: 200px;
+    border: 2px solid #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-item{
+    background-color: #385d47;
+    padding: 10px;
+    margin: 5px;
+    width: 30px;
+    height: 30px;
+}
+
+.grid{
+    height: 200px;
+    border: 2px solid #444;
+    margin: 20px;
+    display: grid;
+    place-items: center;
+}
+
+.grid-item{
+    background-color: chartreuse;
+    padding: 10px;
+    margin: 5px;
+    width: 30px;
+    height: 30px;
+}
+
+.container6{
+    width: 200px;
+    height: 100px;
+    border: 2px solid #555;
+    background-color:  cornflowerblue;
+    overflow:auto;
+}
+/*over flow hidden, over flow auto and over flow scroll*/
+
+.container7{
+    position: relative;
+    width: 400px;
+    height: 300px;
+    margin: 20px;
+    border: 2px solid #333;
+}
+
+.box{
+    width: 150px;
+    height: 150px;
+    color: #385d47;
+    padding: 10px;
+    margin: 10px;
+    position: absolute;
+}
+
+.box1{
+    background-color: cyan;
+    top: 40px;
+    left: 50px;
+    z-index: 2;
+}
+
+.box2{
+    background-color: aquamarine;
+    top: 70px;
+    left: 100px;
+    z-index: 3;
+}
+
+.box3{
+    background-color: coral;
+    top: 110px;
+    left: 140px;
+    z-index: 4;
+}
