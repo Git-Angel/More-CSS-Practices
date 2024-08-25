@@ -100,7 +100,7 @@
     background-color: rgb(191, 255, 127);
     margin: 0 auto;
 }
-
+/*to apply flex*/
 .flex{
     height: 200px;
     border: 2px solid #333;
