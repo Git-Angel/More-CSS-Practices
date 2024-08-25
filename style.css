@@ -100,7 +100,8 @@
     background-color: rgb(191, 255, 127);
     margin: 0 auto;
 }
-/*to apply flex*/
+/*to apply flex to your work
+first display fle, then align centre, the justify centre*/
 .flex{
     height: 200px;
     border: 2px solid #333;
